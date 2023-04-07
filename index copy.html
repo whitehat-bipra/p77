@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting to know JS</title>
+</head>
+<body onclick="myichha()">
+    <h1 id="hehe" style="font-size: 200px;">OPEN THE CONSOLE</h1>
+    <audio id="siren" src="police-operation-siren-144229.mp3" loop></audio>
+
+    <p id="thep" style="">
+        Write about visual studio and how to set it up
+        </p>
+        <p id="kool" style="">
+        Write about console screen. And why it is use. And how to open console
+        screen and how to print anything on console
+        </p>
+    <script>
+        function myichha(){
+            document.getElementById("thep").style.color="orangered";
+            document.getElementById("kool").style.color="orangered";
+            document.getElementById('siren').play();
+            document.getElementById('hehe').innerText="You Just Clicked!";
+        };
+        var f_na = 'Ranbir';
+        var m_na = ' Joe';
+        var l_na = ' MAMA';
+        var full_na = f_na.concat(m_na, l_na);
+        console.log('This is JOE MAMA’S First JavaScript program Working one');
+        console.log(full_na);
+
+        var num1 = 5;
+        var num2 = 100;
+        var sum = num1 + num2;
+        var diff = num1 - num2;
+        var mul = num1 * num2;
+        var divi = num2 / num1;
+        var sq = Math.sqrt(225) 
+
+
+        console.log(num1);
+        console.log(num2);
+        console.log(sum);
+        console.log(diff);
+        console.log(mul);
+        console.log(divi);
+        console.log(sq);
+        
+    </script>
+</body>
+</html>
